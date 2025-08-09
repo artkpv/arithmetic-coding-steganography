@@ -1,0 +1,966 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1260">
+<rect x="0" y="0" width="1000" height="1260" fill="white" />
+<text x="500.0" y="20" font-family="monospace" font-size="14" text-anchor="middle">ENCODE visualization (15 steps, precision=16)</text>
+<line x1="80" y1="40" x2="960" y2="40" stroke="#333" stroke-width="1" />
+<text x="70" y="35" font-family="monospace" font-size="12" text-anchor="end">step 1</text>
+<g><line x1="80.00" y1="40" x2="960.00" y2="40" stroke="#000" stroke-width="3" /><title>current interval [0, 65536) width=65536 (~1.000000 of total)</title></g>
+<text x="80.00" y="28" font-family="monospace" font-size="11" text-anchor="start" fill="#000">0</text>
+<text x="960.00" y="28" font-family="monospace" font-size="11" text-anchor="end" fill="#000">65536</text>
+<circle cx="365.35" cy="40.00" r="5" fill="#1e90ff"><title>message_idx=21251</title></circle>
+<rect x="80.00" y="30" width="420.13" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]: s (selected)
+range=[0, 31288) width=31288
+prob≈0.477417</title></rect>
+<rect x="500.13" y="30" width="63.84" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: warm
+range=[31288, 36042) width=4754
+prob≈0.072540</title></rect>
+<rect x="563.96" y="30" width="51.40" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  sunny
+range=[36042, 39870) width=3828
+prob≈0.058411</title></rect>
+<rect x="615.36" y="30" width="40.12" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: beautiful
+range=[39870, 42858) width=2988
+prob≈0.045593</title></rect>
+<rect x="655.49" y="30" width="36.23" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: abs
+range=[42858, 45556) width=2698
+prob≈0.041168</title></rect>
+<rect x="691.71" y="30" width="33.34" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: un
+range=[45556, 48039) width=2483
+prob≈0.037888</title></rect>
+<rect x="725.05" y="30" width="28.02" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: perfect
+range=[48039, 50126) width=2087
+prob≈0.031845</title></rect>
+<rect x="753.08" y="30" width="25.30" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]:  partly
+range=[50126, 52010) width=1884
+prob≈0.028748</title></rect>
+<rect x="778.38" y="30" width="23.07" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]:  warm
+range=[52010, 53728) width=1718
+prob≈0.026215</title></rect>
+<rect x="801.45" y="30" width="22.65" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: clear
+range=[53728, 55415) width=1687
+prob≈0.025742</title></rect>
+<rect x="824.10" y="30" width="21.04" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: gor
+range=[55415, 56982) width=1567
+prob≈0.023911</title></rect>
+<rect x="845.14" y="30" width="19.28" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]: cloud
+range=[56982, 58418) width=1436
+prob≈0.021912</title></rect>
+<rect x="864.42" y="30" width="17.74" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]:  absolutely
+range=[58418, 59739) width=1321
+prob≈0.020157</title></rect>
+<rect x="882.16" y="30" width="15.84" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[13]: bright
+range=[59739, 60919) width=1180
+prob≈0.018005</title></rect>
+<rect x="898.00" y="30" width="13.43" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[14]: part
+range=[60919, 61919) width=1000
+prob≈0.015259</title></rect>
+<rect x="911.43" y="30" width="13.11" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[15]:  cloudy
+range=[61919, 62895) width=976
+prob≈0.014893</title></rect>
+<rect x="924.54" y="30" width="12.35" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[16]: quite
+range=[62895, 63815) width=920
+prob≈0.014038</title></rect>
+<rect x="936.89" y="30" width="12.22" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[17]:  beautiful
+range=[63815, 64725) width=910
+prob≈0.013885</title></rect>
+<rect x="949.11" y="30" width="10.89" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[18]: mostly
+range=[64725, 65536) width=811
+prob≈0.012375</title></rect>
+<g><line x1="500.13" y1="34" x2="500.13" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 31288</title></g>
+<g><line x1="563.96" y1="34" x2="563.96" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 36042</title></g>
+<g><line x1="615.36" y1="34" x2="615.36" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 39870</title></g>
+<g><line x1="655.49" y1="34" x2="655.49" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 42858</title></g>
+<g><line x1="691.71" y1="34" x2="691.71" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 45556</title></g>
+<g><line x1="725.05" y1="34" x2="725.05" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 48039</title></g>
+<g><line x1="753.08" y1="34" x2="753.08" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 50126</title></g>
+<g><line x1="778.38" y1="34" x2="778.38" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 52010</title></g>
+<g><line x1="801.45" y1="34" x2="801.45" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 53728</title></g>
+<g><line x1="824.10" y1="34" x2="824.10" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 55415</title></g>
+<g><line x1="845.14" y1="34" x2="845.14" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 56982</title></g>
+<g><line x1="864.42" y1="34" x2="864.42" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 58418</title></g>
+<g><line x1="882.16" y1="34" x2="882.16" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 59739</title></g>
+<g><line x1="898.00" y1="34" x2="898.00" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[13] at 60919</title></g>
+<g><line x1="911.43" y1="34" x2="911.43" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[14] at 61919</title></g>
+<g><line x1="924.54" y1="34" x2="924.54" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[15] at 62895</title></g>
+<g><line x1="936.89" y1="34" x2="936.89" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[16] at 63815</title></g>
+<g><line x1="949.11" y1="34" x2="949.11" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[17] at 64725</title></g>
+<g><line x1="960.00" y1="34" x2="960.00" y2="46" stroke="#888" stroke-width="1" /><title>boundary after token[18] at 65536</title></g>
+<g><line x1="80.00" y1="40" x2="500.13" y2="40" stroke="#c00" stroke-width="5" /><title>selected token[0]: s
+new_range=[0, 31288) width=31288
+emitted_bits=[0] (n=1)
+message_idx=21251</title></g>
+<text x="80.00" y="58" font-family="monospace" font-size="12" fill="#c00">sel=0 s</text>
+<text x="80" y="74" font-family="monospace" font-size="12" fill="#333">bits=1 0</text>
+<line x1="80" y1="120" x2="960" y2="120" stroke="#333" stroke-width="1" />
+<text x="70" y="115" font-family="monospace" font-size="12" text-anchor="end">step 2</text>
+<g><line x1="80.00" y1="120" x2="920.25" y2="120" stroke="#000" stroke-width="3" /><title>current interval [0, 62576) width=62576 (~0.954834 of total)</title></g>
+<text x="80.00" y="108" font-family="monospace" font-size="11" text-anchor="start" fill="#000">0</text>
+<text x="920.25" y="108" font-family="monospace" font-size="11" text-anchor="end" fill="#000">62576</text>
+<circle cx="650.71" cy="120.00" r="5" fill="#1e90ff"><title>message_idx=42502</title></circle>
+<g stroke="#1e90ff" stroke-width="1" stroke-dasharray="4 3" fill="none"><line x1="80.00" y1="48.00" x2="80.00" y2="112.00" /><line x1="500.13" y1="48.00" x2="920.25" y2="112.00" /></g>
+<circle cx="80.00" cy="112.00" r="2" fill="#1e90ff"><title>rescaled: [0, 31288) → [0, 62576)</title></circle>
+<circle cx="920.25" cy="112.00" r="2" fill="#1e90ff"></circle>
+<rect x="80.00" y="110" width="771.85" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]: unny (selected)
+range=[0, 57482) width=57482
+prob≈0.918595</title></rect>
+<rect x="851.85" y="110" width="42.87" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: o
+range=[57482, 60675) width=3193
+prob≈0.051026</title></rect>
+<rect x="894.73" y="110" width="6.59" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]: t
+range=[60675, 61166) width=491
+prob≈0.007846</title></rect>
+<rect x="901.32" y="110" width="4.89" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: 
+
+
+range=[61166, 61530) width=364
+prob≈0.005817</title></rect>
+<rect x="906.21" y="110" width="2.63" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  un
+range=[61530, 61726) width=196
+prob≈0.003132</title></rect>
+<rect x="908.84" y="110" width="2.15" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: im
+range=[61726, 61886) width=160
+prob≈0.002557</title></rect>
+<rect x="910.99" y="110" width="2.08" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: uper
+range=[61886, 62041) width=155
+prob≈0.002477</title></rect>
+<rect x="913.07" y="110" width="1.37" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: c
+range=[62041, 62143) width=102
+prob≈0.001630</title></rect>
+<rect x="914.44" y="110" width="0.95" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: lightly
+range=[62143, 62214) width=71
+prob≈0.001135</title></rect>
+<rect x="915.39" y="110" width="0.90" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: S
+range=[62214, 62281) width=67
+prob≈0.001071</title></rect>
+<rect x="916.29" y="110" width="0.85" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: pect
+range=[62281, 62344) width=63
+prob≈0.001007</title></rect>
+<rect x="917.14" y="110" width="0.81" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]:  sunny
+range=[62344, 62404) width=60
+prob≈0.000959</title></rect>
+<rect x="917.94" y="110" width="0.68" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]:  o
+range=[62404, 62455) width=51
+prob≈0.000815</title></rect>
+<rect x="918.63" y="110" width="0.62" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[13]: s
+range=[62455, 62501) width=46
+prob≈0.000735</title></rect>
+<rect x="919.25" y="110" width="0.52" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[14]:  Sunny
+range=[62501, 62540) width=39
+prob≈0.000623</title></rect>
+<rect x="919.77" y="110" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[15]: ur
+range=[62540, 62576) width=36
+prob≈0.000575</title></rect>
+<g><line x1="851.85" y1="114" x2="851.85" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 57482</title></g>
+<g><line x1="894.73" y1="114" x2="894.73" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 60675</title></g>
+<g><line x1="901.32" y1="114" x2="901.32" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 61166</title></g>
+<g><line x1="906.21" y1="114" x2="906.21" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 61530</title></g>
+<g><line x1="908.84" y1="114" x2="908.84" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 61726</title></g>
+<g><line x1="910.99" y1="114" x2="910.99" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 61886</title></g>
+<g><line x1="913.07" y1="114" x2="913.07" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 62041</title></g>
+<g><line x1="914.44" y1="114" x2="914.44" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 62143</title></g>
+<g><line x1="915.39" y1="114" x2="915.39" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 62214</title></g>
+<g><line x1="916.29" y1="114" x2="916.29" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 62281</title></g>
+<g><line x1="917.14" y1="114" x2="917.14" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 62344</title></g>
+<g><line x1="917.94" y1="114" x2="917.94" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 62404</title></g>
+<g><line x1="918.63" y1="114" x2="918.63" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 62455</title></g>
+<g><line x1="919.25" y1="114" x2="919.25" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[13] at 62501</title></g>
+<g><line x1="919.77" y1="114" x2="919.77" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[14] at 62540</title></g>
+<g><line x1="920.25" y1="114" x2="920.25" y2="126" stroke="#888" stroke-width="1" /><title>boundary after token[15] at 62576</title></g>
+<g><line x1="80.00" y1="120" x2="851.85" y2="120" stroke="#c00" stroke-width="5" /><title>selected token[0]: unny
+new_range=[0, 57482) width=57482
+emitted_bits=[] (n=0)
+message_idx=42502</title></g>
+<text x="80.00" y="138" font-family="monospace" font-size="12" fill="#c00">sel=0 unny</text>
+<text x="80" y="154" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="200" x2="960" y2="200" stroke="#333" stroke-width="1" />
+<text x="70" y="195" font-family="monospace" font-size="12" text-anchor="end">step 3</text>
+<g><line x1="80.00" y1="200" x2="851.85" y2="200" stroke="#000" stroke-width="3" /><title>current interval [0, 57482) width=57482 (~0.877106 of total)</title></g>
+<text x="80.00" y="188" font-family="monospace" font-size="11" text-anchor="start" fill="#000">0</text>
+<text x="851.85" y="188" font-family="monospace" font-size="11" text-anchor="end" fill="#000">57482</text>
+<circle cx="650.71" cy="200.00" r="5" fill="#1e90ff"><title>message_idx=42502</title></circle>
+<rect x="80.00" y="190" width="506.01" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  with
+range=[0, 37684) width=37684
+prob≈0.655579</title></rect>
+<rect x="586.01" y="190" width="197.59" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]:  and (selected)
+range=[37684, 52399) width=14715
+prob≈0.255993</title></rect>
+<rect x="783.60" y="190" width="31.90" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]: with
+range=[52399, 54775) width=2376
+prob≈0.041335</title></rect>
+<rect x="815.50" y="190" width="23.82" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: ,
+range=[54775, 56549) width=1774
+prob≈0.030862</title></rect>
+<rect x="839.32" y="190" width="5.94" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: and
+range=[56549, 56991) width=442
+prob≈0.007689</title></rect>
+<rect x="845.26" y="190" width="3.01" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: 
+
+range=[56991, 57215) width=224
+prob≈0.003897</title></rect>
+<rect x="848.27" y="190" width="2.11" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: .
+range=[57215, 57372) width=157
+prob≈0.002731</title></rect>
+<rect x="850.38" y="190" width="0.60" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: The
+range=[57372, 57417) width=45
+prob≈0.000783</title></rect>
+<rect x="850.98" y="190" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: ;
+range=[57417, 57445) width=28
+prob≈0.000487</title></rect>
+<rect x="851.36" y="190" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: -
+range=[57445, 57464) width=19
+prob≈0.000331</title></rect>
+<rect x="851.61" y="190" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: I
+range=[57464, 57482) width=18
+prob≈0.000313</title></rect>
+<g><line x1="586.01" y1="194" x2="586.01" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 37684</title></g>
+<g><line x1="783.60" y1="194" x2="783.60" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 52399</title></g>
+<g><line x1="815.50" y1="194" x2="815.50" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 54775</title></g>
+<g><line x1="839.32" y1="194" x2="839.32" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 56549</title></g>
+<g><line x1="845.26" y1="194" x2="845.26" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 56991</title></g>
+<g><line x1="848.27" y1="194" x2="848.27" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 57215</title></g>
+<g><line x1="850.38" y1="194" x2="850.38" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 57372</title></g>
+<g><line x1="850.98" y1="194" x2="850.98" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 57417</title></g>
+<g><line x1="851.36" y1="194" x2="851.36" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 57445</title></g>
+<g><line x1="851.61" y1="194" x2="851.61" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 57464</title></g>
+<g><line x1="851.85" y1="194" x2="851.85" y2="206" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 57482</title></g>
+<g><line x1="586.01" y1="200" x2="783.60" y2="200" stroke="#c00" stroke-width="5" /><title>selected token[1]:  and
+new_range=[37684, 52399) width=14715
+emitted_bits=[1] (n=1)
+message_idx=42502</title></g>
+<text x="586.01" y="218" font-family="monospace" font-size="12" fill="#c00">sel=1  and</text>
+<text x="80" y="234" font-family="monospace" font-size="12" fill="#333">bits=1 1</text>
+<line x1="80" y1="280" x2="960" y2="280" stroke="#333" stroke-width="1" />
+<text x="70" y="275" font-family="monospace" font-size="12" text-anchor="end">step 4</text>
+<g><line x1="212.02" y1="280" x2="607.20" y2="280" stroke="#000" stroke-width="3" /><title>current interval [9832, 39262) width=29430 (~0.449066 of total)</title></g>
+<text x="212.02" y="268" font-family="monospace" font-size="11" text-anchor="start" fill="#000">9832</text>
+<text x="607.20" y="268" font-family="monospace" font-size="11" text-anchor="end" fill="#000">39262</text>
+<circle cx="341.41" cy="280.00" r="5" fill="#1e90ff"><title>message_idx=19468</title></circle>
+<g stroke="#1e90ff" stroke-width="1" stroke-dasharray="4 3" fill="none"><line x1="586.01" y1="208.00" x2="212.02" y2="272.00" /><line x1="783.60" y1="208.00" x2="607.20" y2="272.00" /></g>
+<circle cx="212.02" cy="272.00" r="2" fill="#1e90ff"><title>rescaled: [37684, 52399) → [9832, 39262)</title></circle>
+<circle cx="607.20" cy="272.00" r="2" fill="#1e90ff"></circle>
+<rect x="212.02" y="270" width="293.38" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  warm (selected)
+range=[9832, 31681) width=21849
+prob≈0.742406</title></rect>
+<rect x="505.40" y="270" width="38.48" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: warm
+range=[31681, 34547) width=2866
+prob≈0.097384</title></rect>
+<rect x="543.89" y="270" width="20.33" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  clear
+range=[34547, 36061) width=1514
+prob≈0.051444</title></rect>
+<rect x="564.22" y="270" width="17.24" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  hot
+range=[36061, 37345) width=1284
+prob≈0.043629</title></rect>
+<rect x="581.46" y="270" width="10.49" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  bright
+range=[37345, 38126) width=781
+prob≈0.026538</title></rect>
+<rect x="591.95" y="270" width="7.41" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]:  beautiful
+range=[38126, 38678) width=552
+prob≈0.018756</title></rect>
+<rect x="599.36" y="270" width="4.70" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: hot
+range=[38678, 39028) width=350
+prob≈0.011893</title></rect>
+<rect x="604.06" y="270" width="1.05" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: clear
+range=[39028, 39106) width=78
+prob≈0.002650</title></rect>
+<rect x="605.10" y="270" width="0.85" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: bright
+range=[39106, 39169) width=63
+prob≈0.002141</title></rect>
+<rect x="605.95" y="270" width="0.75" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: beautiful
+range=[39169, 39225) width=56
+prob≈0.001903</title></rect>
+<rect x="606.70" y="270" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: 
+
+range=[39225, 39262) width=37
+prob≈0.001257</title></rect>
+<g><line x1="505.40" y1="274" x2="505.40" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 31681</title></g>
+<g><line x1="543.89" y1="274" x2="543.89" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 34547</title></g>
+<g><line x1="564.22" y1="274" x2="564.22" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 36061</title></g>
+<g><line x1="581.46" y1="274" x2="581.46" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 37345</title></g>
+<g><line x1="591.95" y1="274" x2="591.95" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 38126</title></g>
+<g><line x1="599.36" y1="274" x2="599.36" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 38678</title></g>
+<g><line x1="604.06" y1="274" x2="604.06" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 39028</title></g>
+<g><line x1="605.10" y1="274" x2="605.10" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 39106</title></g>
+<g><line x1="605.95" y1="274" x2="605.95" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 39169</title></g>
+<g><line x1="606.70" y1="274" x2="606.70" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 39225</title></g>
+<g><line x1="607.20" y1="274" x2="607.20" y2="286" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 39262</title></g>
+<g><line x1="212.02" y1="280" x2="505.40" y2="280" stroke="#c00" stroke-width="5" /><title>selected token[0]:  warm
+new_range=[9832, 31681) width=21849
+emitted_bits=[0] (n=1)
+message_idx=19468</title></g>
+<text x="212.02" y="298" font-family="monospace" font-size="12" fill="#c00">sel=0  warm</text>
+<text x="80" y="314" font-family="monospace" font-size="12" fill="#333">bits=1 0</text>
+<line x1="80" y1="360" x2="960" y2="360" stroke="#333" stroke-width="1" />
+<text x="70" y="355" font-family="monospace" font-size="12" text-anchor="end">step 5</text>
+<g><line x1="344.04" y1="360" x2="930.81" y2="360" stroke="#000" stroke-width="3" /><title>current interval [19664, 63362) width=43698 (~0.666779 of total)</title></g>
+<text x="344.04" y="348" font-family="monospace" font-size="11" text-anchor="start" fill="#000">19664</text>
+<text x="930.81" y="348" font-family="monospace" font-size="11" text-anchor="end" fill="#000">63362</text>
+<circle cx="602.82" cy="360.00" r="5" fill="#1e90ff"><title>message_idx=38936</title></circle>
+<g stroke="#1e90ff" stroke-width="1" stroke-dasharray="4 3" fill="none"><line x1="212.02" y1="288.00" x2="344.04" y2="352.00" /><line x1="505.40" y1="288.00" x2="930.81" y2="352.00" /></g>
+<circle cx="344.04" cy="352.00" r="2" fill="#1e90ff"><title>rescaled: [9832, 31681) → [19664, 63362)</title></circle>
+<circle cx="930.81" cy="352.00" r="2" fill="#1e90ff"></circle>
+<rect x="344.04" y="350" width="442.51" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]: , (selected)
+range=[19664, 52619) width=32955
+prob≈0.754154</title></rect>
+<rect x="786.55" y="350" width="79.12" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]:  with
+range=[52619, 58511) width=5892
+prob≈0.134835</title></rect>
+<rect x="865.67" y="350" width="34.72" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]: .
+range=[58511, 61097) width=2586
+prob≈0.059179</title></rect>
+<rect x="900.39" y="350" width="5.45" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: with
+range=[61097, 61503) width=406
+prob≈0.009291</title></rect>
+<rect x="905.85" y="350" width="3.56" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  -
+range=[61503, 61768) width=265
+prob≈0.006064</title></rect>
+<rect x="909.40" y="350" width="3.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]:  and
+range=[61768, 62029) width=261
+prob≈0.005973</title></rect>
+<rect x="912.91" y="350" width="3.46" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: perfect
+range=[62029, 62287) width=258
+prob≈0.005904</title></rect>
+<rect x="916.37" y="350" width="2.59" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]:  ,
+range=[62287, 62480) width=193
+prob≈0.004417</title></rect>
+<rect x="918.96" y="350" width="2.27" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: -
+range=[62480, 62649) width=169
+prob≈0.003867</title></rect>
+<rect x="921.23" y="350" width="2.09" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]:  perfect
+range=[62649, 62805) width=156
+prob≈0.003570</title></rect>
+<rect x="923.33" y="350" width="1.49" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]:  which
+range=[62805, 62916) width=111
+prob≈0.002540</title></rect>
+<rect x="924.82" y="350" width="1.48" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]:  making
+range=[62916, 63026) width=110
+prob≈0.002517</title></rect>
+<rect x="926.30" y="350" width="1.30" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]: ;
+range=[63026, 63123) width=97
+prob≈0.002220</title></rect>
+<rect x="927.60" y="350" width="1.18" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[13]: The
+range=[63123, 63211) width=88
+prob≈0.002014</title></rect>
+<rect x="928.78" y="350" width="0.86" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[14]:  –
+range=[63211, 63275) width=64
+prob≈0.001465</title></rect>
+<rect x="929.64" y="350" width="0.73" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[15]: I
+range=[63275, 63329) width=54
+prob≈0.001236</title></rect>
+<rect x="930.36" y="350" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[16]: —
+range=[63329, 63362) width=33
+prob≈0.000755</title></rect>
+<g><line x1="786.55" y1="354" x2="786.55" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 52619</title></g>
+<g><line x1="865.67" y1="354" x2="865.67" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 58511</title></g>
+<g><line x1="900.39" y1="354" x2="900.39" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 61097</title></g>
+<g><line x1="905.85" y1="354" x2="905.85" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 61503</title></g>
+<g><line x1="909.40" y1="354" x2="909.40" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 61768</title></g>
+<g><line x1="912.91" y1="354" x2="912.91" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 62029</title></g>
+<g><line x1="916.37" y1="354" x2="916.37" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 62287</title></g>
+<g><line x1="918.96" y1="354" x2="918.96" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 62480</title></g>
+<g><line x1="921.23" y1="354" x2="921.23" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 62649</title></g>
+<g><line x1="923.33" y1="354" x2="923.33" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 62805</title></g>
+<g><line x1="924.82" y1="354" x2="924.82" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 62916</title></g>
+<g><line x1="926.30" y1="354" x2="926.30" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 63026</title></g>
+<g><line x1="927.60" y1="354" x2="927.60" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 63123</title></g>
+<g><line x1="928.78" y1="354" x2="928.78" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[13] at 63211</title></g>
+<g><line x1="929.64" y1="354" x2="929.64" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[14] at 63275</title></g>
+<g><line x1="930.36" y1="354" x2="930.36" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[15] at 63329</title></g>
+<g><line x1="930.81" y1="354" x2="930.81" y2="366" stroke="#888" stroke-width="1" /><title>boundary after token[16] at 63362</title></g>
+<g><line x1="344.04" y1="360" x2="786.55" y2="360" stroke="#c00" stroke-width="5" /><title>selected token[0]: ,
+new_range=[19664, 52619) width=32955
+emitted_bits=[] (n=0)
+message_idx=38936</title></g>
+<text x="344.04" y="378" font-family="monospace" font-size="12" fill="#c00">sel=0 ,</text>
+<text x="80" y="394" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="440" x2="960" y2="440" stroke="#333" stroke-width="1" />
+<text x="70" y="435" font-family="monospace" font-size="12" text-anchor="end">step 6</text>
+<g><line x1="344.04" y1="440" x2="786.55" y2="440" stroke="#000" stroke-width="3" /><title>current interval [19664, 52619) width=32955 (~0.502853 of total)</title></g>
+<text x="344.04" y="428" font-family="monospace" font-size="11" text-anchor="start" fill="#000">19664</text>
+<text x="786.55" y="428" font-family="monospace" font-size="11" text-anchor="end" fill="#000">52619</text>
+<circle cx="602.82" cy="440.00" r="5" fill="#1e90ff"><title>message_idx=38936</title></circle>
+<rect x="344.04" y="430" width="147.97" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  perfect
+range=[19664, 30684) width=11020
+prob≈0.334395</title></rect>
+<rect x="492.02" y="430" width="83.79" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]:  with
+range=[30684, 36924) width=6240
+prob≈0.189349</title></rect>
+<rect x="575.81" y="430" width="77.97" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  a (selected)
+range=[36924, 42731) width=5807
+prob≈0.176210</title></rect>
+<rect x="653.78" y="430" width="54.88" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  making
+range=[42731, 46818) width=4087
+prob≈0.124018</title></rect>
+<rect x="708.66" y="430" width="21.28" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: perfect
+range=[46818, 48403) width=1585
+prob≈0.048096</title></rect>
+<rect x="729.94" y="430" width="17.29" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: a
+range=[48403, 49691) width=1288
+prob≈0.039084</title></rect>
+<rect x="747.24" y="430" width="11.12" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]:  the
+range=[49691, 50519) width=828
+prob≈0.025125</title></rect>
+<rect x="758.36" y="430" width="10.73" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: with
+range=[50519, 51318) width=799
+prob≈0.024245</title></rect>
+<rect x="769.08" y="430" width="5.12" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]:  which
+range=[51318, 51699) width=381
+prob≈0.011561</title></rect>
+<rect x="774.20" y="430" width="4.83" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]:  so
+range=[51699, 52059) width=360
+prob≈0.010924</title></rect>
+<rect x="779.03" y="430" width="3.73" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: the
+range=[52059, 52337) width=278
+prob≈0.008436</title></rect>
+<rect x="782.77" y="430" width="2.89" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]: making
+range=[52337, 52552) width=215
+prob≈0.006524</title></rect>
+<rect x="785.65" y="430" width="0.90" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]: which
+range=[52552, 52619) width=67
+prob≈0.002033</title></rect>
+<g><line x1="492.02" y1="434" x2="492.02" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 30684</title></g>
+<g><line x1="575.81" y1="434" x2="575.81" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 36924</title></g>
+<g><line x1="653.78" y1="434" x2="653.78" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 42731</title></g>
+<g><line x1="708.66" y1="434" x2="708.66" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 46818</title></g>
+<g><line x1="729.94" y1="434" x2="729.94" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 48403</title></g>
+<g><line x1="747.24" y1="434" x2="747.24" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 49691</title></g>
+<g><line x1="758.36" y1="434" x2="758.36" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 50519</title></g>
+<g><line x1="769.08" y1="434" x2="769.08" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 51318</title></g>
+<g><line x1="774.20" y1="434" x2="774.20" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 51699</title></g>
+<g><line x1="779.03" y1="434" x2="779.03" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 52059</title></g>
+<g><line x1="782.77" y1="434" x2="782.77" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 52337</title></g>
+<g><line x1="785.65" y1="434" x2="785.65" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 52552</title></g>
+<g><line x1="786.55" y1="434" x2="786.55" y2="446" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 52619</title></g>
+<g><line x1="575.81" y1="440" x2="653.78" y2="440" stroke="#c00" stroke-width="5" /><title>selected token[2]:  a
+new_range=[36924, 42731) width=5807
+emitted_bits=[1, 0] (n=2)
+message_idx=38936</title></g>
+<text x="575.81" y="458" font-family="monospace" font-size="12" fill="#c00">sel=2  a</text>
+<text x="80" y="474" font-family="monospace" font-size="12" fill="#333">bits=2 10</text>
+<line x1="80" y1="520" x2="960" y2="520" stroke="#333" stroke-width="1" />
+<text x="70" y="515" font-family="monospace" font-size="12" text-anchor="end">step 7</text>
+<g><line x1="303.22" y1="520" x2="615.12" y2="520" stroke="#000" stroke-width="3" /><title>current interval [16624, 39852) width=23228 (~0.354431 of total)</title></g>
+<text x="303.22" y="508" font-family="monospace" font-size="11" text-anchor="start" fill="#000">16624</text>
+<text x="615.12" y="508" font-family="monospace" font-size="11" text-anchor="end" fill="#000">39852</text>
+<circle cx="411.29" cy="520.00" r="5" fill="#1e90ff"><title>message_idx=24672</title></circle>
+<g stroke="#1e90ff" stroke-width="1" stroke-dasharray="4 3" fill="none"><line x1="575.81" y1="448.00" x2="303.22" y2="512.00" /><line x1="653.78" y1="448.00" x2="615.12" y2="512.00" /></g>
+<circle cx="303.22" cy="512.00" r="2" fill="#1e90ff"><title>rescaled: [36924, 42731) → [16624, 39852)</title></circle>
+<circle cx="615.12" cy="512.00" r="2" fill="#1e90ff"></circle>
+<rect x="303.22" y="510" width="247.53" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  perfect (selected)
+range=[16624, 35058) width=18434
+prob≈0.793611</title></rect>
+<rect x="550.75" y="510" width="21.38" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: perfect
+range=[35058, 36650) width=1592
+prob≈0.068538</title></rect>
+<rect x="572.13" y="510" width="10.11" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  welcome
+range=[36650, 37403) width=753
+prob≈0.032418</title></rect>
+<rect x="582.24" y="510" width="8.81" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  beautiful
+range=[37403, 38059) width=656
+prob≈0.028242</title></rect>
+<rect x="591.05" y="510" width="4.93" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  great
+range=[38059, 38426) width=367
+prob≈0.015800</title></rect>
+<rect x="595.97" y="510" width="4.91" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: nd
+range=[38426, 38792) width=366
+prob≈0.015757</title></rect>
+<rect x="600.89" y="510" width="3.33" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]:  gentle
+range=[38792, 39040) width=248
+prob≈0.010677</title></rect>
+<rect x="604.22" y="510" width="2.30" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: s
+range=[39040, 39211) width=171
+prob≈0.007362</title></rect>
+<rect x="606.51" y="510" width="2.00" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]:  refreshing
+range=[39211, 39360) width=149
+prob≈0.006415</title></rect>
+<rect x="608.52" y="510" width="1.89" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]:  stark
+range=[39360, 39501) width=141
+prob≈0.006070</title></rect>
+<rect x="610.41" y="510" width="1.60" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]:  pleasant
+range=[39501, 39620) width=119
+prob≈0.005123</title></rect>
+<rect x="612.01" y="510" width="1.20" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]:  nice
+range=[39620, 39709) width=89
+prob≈0.003832</title></rect>
+<rect x="613.20" y="510" width="1.17" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]:  slight
+range=[39709, 39796) width=87
+prob≈0.003745</title></rect>
+<rect x="614.37" y="510" width="0.75" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[13]: welcome
+range=[39796, 39852) width=56
+prob≈0.002411</title></rect>
+<g><line x1="550.75" y1="514" x2="550.75" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 35058</title></g>
+<g><line x1="572.13" y1="514" x2="572.13" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 36650</title></g>
+<g><line x1="582.24" y1="514" x2="582.24" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 37403</title></g>
+<g><line x1="591.05" y1="514" x2="591.05" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 38059</title></g>
+<g><line x1="595.97" y1="514" x2="595.97" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 38426</title></g>
+<g><line x1="600.89" y1="514" x2="600.89" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 38792</title></g>
+<g><line x1="604.22" y1="514" x2="604.22" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 39040</title></g>
+<g><line x1="606.51" y1="514" x2="606.51" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 39211</title></g>
+<g><line x1="608.52" y1="514" x2="608.52" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 39360</title></g>
+<g><line x1="610.41" y1="514" x2="610.41" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 39501</title></g>
+<g><line x1="612.01" y1="514" x2="612.01" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 39620</title></g>
+<g><line x1="613.20" y1="514" x2="613.20" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 39709</title></g>
+<g><line x1="614.37" y1="514" x2="614.37" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 39796</title></g>
+<g><line x1="615.12" y1="514" x2="615.12" y2="526" stroke="#888" stroke-width="1" /><title>boundary after token[13] at 39852</title></g>
+<g><line x1="303.22" y1="520" x2="550.75" y2="520" stroke="#c00" stroke-width="5" /><title>selected token[0]:  perfect
+new_range=[16624, 35058) width=18434
+emitted_bits=[] (n=0)
+message_idx=24672</title></g>
+<text x="303.22" y="538" font-family="monospace" font-size="12" fill="#c00">sel=0  perfect</text>
+<text x="80" y="554" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="600" x2="960" y2="600" stroke="#333" stroke-width="1" />
+<text x="70" y="595" font-family="monospace" font-size="12" text-anchor="end">step 8</text>
+<g><line x1="303.22" y1="600" x2="550.75" y2="600" stroke="#000" stroke-width="3" /><title>current interval [16624, 35058) width=18434 (~0.281281 of total)</title></g>
+<text x="303.22" y="588" font-family="monospace" font-size="11" text-anchor="start" fill="#000">16624</text>
+<text x="550.75" y="588" font-family="monospace" font-size="11" text-anchor="end" fill="#000">35058</text>
+<circle cx="411.29" cy="600.00" r="5" fill="#1e90ff"><title>message_idx=24672</title></circle>
+<rect x="303.22" y="590" width="237.44" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  day (selected)
+range=[16624, 34307) width=17683
+prob≈0.959260</title></rect>
+<rect x="540.67" y="590" width="6.88" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: day
+range=[34307, 34819) width=512
+prob≈0.027775</title></rect>
+<rect x="547.54" y="590" width="1.34" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  for
+range=[34819, 34919) width=100
+prob≈0.005425</title></rect>
+<rect x="548.88" y="590" width="0.99" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  opportunity
+range=[34919, 34993) width=74
+prob≈0.004014</title></rect>
+<rect x="549.88" y="590" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: 
+
+range=[34993, 35022) width=29
+prob≈0.001573</title></rect>
+<rect x="550.27" y="590" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: for
+range=[35022, 35034) width=12
+prob≈0.000651</title></rect>
+<rect x="550.43" y="590" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: .
+range=[35034, 35043) width=9
+prob≈0.000488</title></rect>
+<rect x="550.55" y="590" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: t
+range=[35043, 35050) width=7
+prob≈0.000380</title></rect>
+<rect x="550.64" y="590" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: s
+range=[35050, 35058) width=8
+prob≈0.000434</title></rect>
+<g><line x1="540.67" y1="594" x2="540.67" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 34307</title></g>
+<g><line x1="547.54" y1="594" x2="547.54" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 34819</title></g>
+<g><line x1="548.88" y1="594" x2="548.88" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 34919</title></g>
+<g><line x1="549.88" y1="594" x2="549.88" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 34993</title></g>
+<g><line x1="550.27" y1="594" x2="550.27" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 35022</title></g>
+<g><line x1="550.43" y1="594" x2="550.43" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 35034</title></g>
+<g><line x1="550.55" y1="594" x2="550.55" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 35043</title></g>
+<g><line x1="550.64" y1="594" x2="550.64" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 35050</title></g>
+<g><line x1="550.75" y1="594" x2="550.75" y2="606" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 35058</title></g>
+<g><line x1="303.22" y1="600" x2="540.67" y2="600" stroke="#c00" stroke-width="5" /><title>selected token[0]:  day
+new_range=[16624, 34307) width=17683
+emitted_bits=[] (n=0)
+message_idx=24672</title></g>
+<text x="303.22" y="618" font-family="monospace" font-size="12" fill="#c00">sel=0  day</text>
+<text x="80" y="634" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="680" x2="960" y2="680" stroke="#333" stroke-width="1" />
+<text x="70" y="675" font-family="monospace" font-size="12" text-anchor="end">step 9</text>
+<g><line x1="303.22" y1="680" x2="540.67" y2="680" stroke="#000" stroke-width="3" /><title>current interval [16624, 34307) width=17683 (~0.269821 of total)</title></g>
+<text x="303.22" y="668" font-family="monospace" font-size="11" text-anchor="start" fill="#000">16624</text>
+<text x="540.67" y="668" font-family="monospace" font-size="11" text-anchor="end" fill="#000">34307</text>
+<circle cx="411.29" cy="680.00" r="5" fill="#1e90ff"><title>message_idx=24672</title></circle>
+<rect x="303.22" y="670" width="198.76" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  for (selected)
+range=[16624, 31426) width=14802
+prob≈0.837075</title></rect>
+<rect x="501.98" y="670" width="21.36" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]:  to
+range=[31426, 33017) width=1591
+prob≈0.089973</title></rect>
+<rect x="523.34" y="670" width="13.00" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]: for
+range=[33017, 33985) width=968
+prob≈0.054742</title></rect>
+<rect x="536.34" y="670" width="2.74" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: to
+range=[33985, 34189) width=204
+prob≈0.011537</title></rect>
+<rect x="539.08" y="670" width="1.17" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: 
+
+range=[34189, 34276) width=87
+prob≈0.004920</title></rect>
+<rect x="540.25" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: .
+range=[34276, 34288) width=12
+prob≈0.000679</title></rect>
+<rect x="540.41" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: 	for
+range=[34288, 34292) width=4
+prob≈0.000226</title></rect>
+<rect x="540.46" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: ,
+range=[34292, 34295) width=3
+prob≈0.000170</title></rect>
+<rect x="540.50" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: s
+range=[34295, 34298) width=3
+prob≈0.000170</title></rect>
+<rect x="540.54" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]:  
+range=[34298, 34301) width=3
+prob≈0.000170</title></rect>
+<rect x="540.58" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: The
+range=[34301, 34303) width=2
+prob≈0.000113</title></rect>
+<rect x="540.61" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]: the
+range=[34303, 34305) width=2
+prob≈0.000113</title></rect>
+<rect x="540.64" y="670" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]: a
+range=[34305, 34307) width=2
+prob≈0.000113</title></rect>
+<g><line x1="501.98" y1="674" x2="501.98" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 31426</title></g>
+<g><line x1="523.34" y1="674" x2="523.34" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 33017</title></g>
+<g><line x1="536.34" y1="674" x2="536.34" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 33985</title></g>
+<g><line x1="539.08" y1="674" x2="539.08" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 34189</title></g>
+<g><line x1="540.25" y1="674" x2="540.25" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 34276</title></g>
+<g><line x1="540.41" y1="674" x2="540.41" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 34288</title></g>
+<g><line x1="540.46" y1="674" x2="540.46" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 34292</title></g>
+<g><line x1="540.50" y1="674" x2="540.50" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 34295</title></g>
+<g><line x1="540.54" y1="674" x2="540.54" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 34298</title></g>
+<g><line x1="540.58" y1="674" x2="540.58" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 34301</title></g>
+<g><line x1="540.61" y1="674" x2="540.61" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 34303</title></g>
+<g><line x1="540.64" y1="674" x2="540.64" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 34305</title></g>
+<g><line x1="540.67" y1="674" x2="540.67" y2="686" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 34307</title></g>
+<g><line x1="303.22" y1="680" x2="501.98" y2="680" stroke="#c00" stroke-width="5" /><title>selected token[0]:  for
+new_range=[16624, 31426) width=14802
+emitted_bits=[0, 1] (n=2)
+message_idx=24672</title></g>
+<text x="303.22" y="698" font-family="monospace" font-size="12" fill="#c00">sel=0  for</text>
+<text x="80" y="714" font-family="monospace" font-size="12" fill="#333">bits=2 01</text>
+<line x1="80" y1="760" x2="960" y2="760" stroke="#333" stroke-width="1" />
+<text x="70" y="755" font-family="monospace" font-size="12" text-anchor="end">step 10</text>
+<g><line x1="92.89" y1="760" x2="887.92" y2="760" stroke="#000" stroke-width="3" /><title>current interval [960, 60168) width=59208 (~0.903442 of total)</title></g>
+<text x="92.89" y="748" font-family="monospace" font-size="11" text-anchor="start" fill="#000">960</text>
+<text x="887.92" y="748" font-family="monospace" font-size="11" text-anchor="end" fill="#000">60168</text>
+<circle cx="525.16" cy="760.00" r="5" fill="#1e90ff"><title>message_idx=33152</title></circle>
+<g stroke="#1e90ff" stroke-width="1" stroke-dasharray="4 3" fill="none"><line x1="303.22" y1="688.00" x2="92.89" y2="752.00" /><line x1="501.98" y1="688.00" x2="887.92" y2="752.00" /></g>
+<circle cx="92.89" cy="752.00" r="2" fill="#1e90ff"><title>rescaled: [16624, 31426) → [960, 60168)</title></circle>
+<circle cx="887.92" cy="752.00" r="2" fill="#1e90ff"></circle>
+<rect x="92.89" y="750" width="624.27" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  a (selected)
+range=[960, 47451) width=46491
+prob≈0.785215</title></rect>
+<rect x="717.16" y="750" width="55.82" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: a
+range=[47451, 51608) width=4157
+prob≈0.070210</title></rect>
+<rect x="772.98" y="750" width="49.79" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  spending
+range=[51608, 55316) width=3708
+prob≈0.062627</title></rect>
+<rect x="822.77" y="750" width="32.36" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  going
+range=[55316, 57726) width=2410
+prob≈0.040704</title></rect>
+<rect x="855.13" y="750" width="26.83" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  outdoor
+range=[57726, 59724) width=1998
+prob≈0.033745</title></rect>
+<rect x="881.96" y="750" width="3.29" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: going
+range=[59724, 59969) width=245
+prob≈0.004138</title></rect>
+<rect x="885.25" y="750" width="2.67" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: pic
+range=[59969, 60168) width=199
+prob≈0.003361</title></rect>
+<g><line x1="717.16" y1="754" x2="717.16" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 47451</title></g>
+<g><line x1="772.98" y1="754" x2="772.98" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 51608</title></g>
+<g><line x1="822.77" y1="754" x2="822.77" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 55316</title></g>
+<g><line x1="855.13" y1="754" x2="855.13" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 57726</title></g>
+<g><line x1="881.96" y1="754" x2="881.96" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 59724</title></g>
+<g><line x1="885.25" y1="754" x2="885.25" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 59969</title></g>
+<g><line x1="887.92" y1="754" x2="887.92" y2="766" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 60168</title></g>
+<g><line x1="92.89" y1="760" x2="717.16" y2="760" stroke="#c00" stroke-width="5" /><title>selected token[0]:  a
+new_range=[960, 47451) width=46491
+emitted_bits=[] (n=0)
+message_idx=33152</title></g>
+<text x="92.89" y="778" font-family="monospace" font-size="12" fill="#c00">sel=0  a</text>
+<text x="80" y="794" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="840" x2="960" y2="840" stroke="#333" stroke-width="1" />
+<text x="70" y="835" font-family="monospace" font-size="12" text-anchor="end">step 11</text>
+<g><line x1="92.89" y1="840" x2="717.16" y2="840" stroke="#000" stroke-width="3" /><title>current interval [960, 47451) width=46491 (~0.709396 of total)</title></g>
+<text x="92.89" y="828" font-family="monospace" font-size="11" text-anchor="start" fill="#000">960</text>
+<text x="717.16" y="828" font-family="monospace" font-size="11" text-anchor="end" fill="#000">47451</text>
+<circle cx="525.16" cy="840.00" r="5" fill="#1e90ff"><title>message_idx=33152</title></circle>
+<rect x="92.89" y="830" width="560.21" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  picnic (selected)
+range=[960, 42680) width=41720
+prob≈0.897378</title></rect>
+<rect x="653.10" y="830" width="18.03" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: pic
+range=[42680, 44023) width=1343
+prob≈0.028887</title></rect>
+<rect x="671.13" y="830" width="7.34" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  day
+range=[44023, 44570) width=547
+prob≈0.011766</title></rect>
+<rect x="678.47" y="830" width="6.96" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  relaxing
+range=[44570, 45088) width=518
+prob≈0.011142</title></rect>
+<rect x="685.43" y="830" width="5.91" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  trip
+range=[45088, 45528) width=440
+prob≈0.009464</title></rect>
+<rect x="691.34" y="830" width="4.94" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]:  beach
+range=[45528, 45896) width=368
+prob≈0.007916</title></rect>
+<rect x="696.28" y="830" width="4.10" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]:  barbecue
+range=[45896, 46201) width=305
+prob≈0.006560</title></rect>
+<rect x="700.37" y="830" width="3.38" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]:  leisure
+range=[46201, 46453) width=252
+prob≈0.005420</title></rect>
+<rect x="703.76" y="830" width="2.77" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]:  outdoor
+range=[46453, 46659) width=206
+prob≈0.004431</title></rect>
+<rect x="706.52" y="830" width="2.60" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]:  hike
+range=[46659, 46853) width=194
+prob≈0.004173</title></rect>
+<rect x="709.13" y="830" width="2.30" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]:  backyard
+range=[46853, 47024) width=171
+prob≈0.003678</title></rect>
+<rect x="711.43" y="830" width="2.08" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]:  walk
+range=[47024, 47179) width=155
+prob≈0.003334</title></rect>
+<rect x="713.51" y="830" width="1.91" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]:  family
+range=[47179, 47321) width=142
+prob≈0.003054</title></rect>
+<rect x="715.41" y="830" width="0.89" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[13]: Pic
+range=[47321, 47387) width=66
+prob≈0.001420</title></rect>
+<rect x="716.30" y="830" width="0.86" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[14]: day
+range=[47387, 47451) width=64
+prob≈0.001377</title></rect>
+<g><line x1="653.10" y1="834" x2="653.10" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 42680</title></g>
+<g><line x1="671.13" y1="834" x2="671.13" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 44023</title></g>
+<g><line x1="678.47" y1="834" x2="678.47" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 44570</title></g>
+<g><line x1="685.43" y1="834" x2="685.43" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 45088</title></g>
+<g><line x1="691.34" y1="834" x2="691.34" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 45528</title></g>
+<g><line x1="696.28" y1="834" x2="696.28" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 45896</title></g>
+<g><line x1="700.37" y1="834" x2="700.37" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 46201</title></g>
+<g><line x1="703.76" y1="834" x2="703.76" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 46453</title></g>
+<g><line x1="706.52" y1="834" x2="706.52" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 46659</title></g>
+<g><line x1="709.13" y1="834" x2="709.13" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 46853</title></g>
+<g><line x1="711.43" y1="834" x2="711.43" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 47024</title></g>
+<g><line x1="713.51" y1="834" x2="713.51" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 47179</title></g>
+<g><line x1="715.41" y1="834" x2="715.41" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 47321</title></g>
+<g><line x1="716.30" y1="834" x2="716.30" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[13] at 47387</title></g>
+<g><line x1="717.16" y1="834" x2="717.16" y2="846" stroke="#888" stroke-width="1" /><title>boundary after token[14] at 47451</title></g>
+<g><line x1="92.89" y1="840" x2="653.10" y2="840" stroke="#c00" stroke-width="5" /><title>selected token[0]:  picnic
+new_range=[960, 42680) width=41720
+emitted_bits=[] (n=0)
+message_idx=33152</title></g>
+<text x="92.89" y="858" font-family="monospace" font-size="12" fill="#c00">sel=0  picnic</text>
+<text x="80" y="874" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="920" x2="960" y2="920" stroke="#333" stroke-width="1" />
+<text x="70" y="915" font-family="monospace" font-size="12" text-anchor="end">step 12</text>
+<g><line x1="92.89" y1="920" x2="653.10" y2="920" stroke="#000" stroke-width="3" /><title>current interval [960, 42680) width=41720 (~0.636597 of total)</title></g>
+<text x="92.89" y="908" font-family="monospace" font-size="11" text-anchor="start" fill="#000">960</text>
+<text x="653.10" y="908" font-family="monospace" font-size="11" text-anchor="end" fill="#000">42680</text>
+<circle cx="525.16" cy="920.00" r="5" fill="#1e90ff"><title>message_idx=33152</title></circle>
+<rect x="92.89" y="910" width="343.60" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  in
+range=[960, 26549) width=25589
+prob≈0.613351</title></rect>
+<rect x="436.49" y="910" width="98.29" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]:  at (selected)
+range=[26549, 33869) width=7320
+prob≈0.175455</title></rect>
+<rect x="534.78" y="910" width="55.75" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  with
+range=[33869, 38021) width=4152
+prob≈0.099521</title></rect>
+<rect x="590.54" y="910" width="43.53" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: .
+range=[38021, 41263) width=3242
+prob≈0.077709</title></rect>
+<rect x="634.07" y="910" width="8.78" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]:  or
+range=[41263, 41917) width=654
+prob≈0.015676</title></rect>
+<rect x="642.85" y="910" width="3.56" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: in
+range=[41917, 42182) width=265
+prob≈0.006352</title></rect>
+<rect x="646.41" y="910" width="2.89" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: !
+range=[42182, 42397) width=215
+prob≈0.005153</title></rect>
+<rect x="649.30" y="910" width="1.92" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: at
+range=[42397, 42540) width=143
+prob≈0.003428</title></rect>
+<rect x="651.22" y="910" width="0.98" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: with
+range=[42540, 42613) width=73
+prob≈0.001750</title></rect>
+<rect x="652.20" y="910" width="0.63" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: 
+
+range=[42613, 42660) width=47
+prob≈0.001127</title></rect>
+<rect x="652.83" y="910" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: ,
+range=[42660, 42670) width=10
+prob≈0.000240</title></rect>
+<rect x="652.96" y="910" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]: The
+range=[42670, 42680) width=10
+prob≈0.000240</title></rect>
+<g><line x1="436.49" y1="914" x2="436.49" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 26549</title></g>
+<g><line x1="534.78" y1="914" x2="534.78" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 33869</title></g>
+<g><line x1="590.54" y1="914" x2="590.54" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 38021</title></g>
+<g><line x1="634.07" y1="914" x2="634.07" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 41263</title></g>
+<g><line x1="642.85" y1="914" x2="642.85" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 41917</title></g>
+<g><line x1="646.41" y1="914" x2="646.41" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 42182</title></g>
+<g><line x1="649.30" y1="914" x2="649.30" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 42397</title></g>
+<g><line x1="651.22" y1="914" x2="651.22" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 42540</title></g>
+<g><line x1="652.20" y1="914" x2="652.20" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 42613</title></g>
+<g><line x1="652.83" y1="914" x2="652.83" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 42660</title></g>
+<g><line x1="652.96" y1="914" x2="652.96" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 42670</title></g>
+<g><line x1="653.10" y1="914" x2="653.10" y2="926" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 42680</title></g>
+<g><line x1="436.49" y1="920" x2="534.78" y2="920" stroke="#c00" stroke-width="5" /><title>selected token[1]:  at
+new_range=[26549, 33869) width=7320
+emitted_bits=[] (n=0)
+message_idx=33152</title></g>
+<text x="436.49" y="938" font-family="monospace" font-size="12" fill="#c00">sel=1  at</text>
+<text x="80" y="954" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="1000" x2="960" y2="1000" stroke="#333" stroke-width="1" />
+<text x="70" y="995" font-family="monospace" font-size="12" text-anchor="end">step 13</text>
+<g><line x1="436.49" y1="1000" x2="534.78" y2="1000" stroke="#000" stroke-width="3" /><title>current interval [26549, 33869) width=7320 (~0.111694 of total)</title></g>
+<text x="436.49" y="988" font-family="monospace" font-size="11" text-anchor="start" fill="#000">26549</text>
+<text x="534.78" y="988" font-family="monospace" font-size="11" text-anchor="end" fill="#000">33869</text>
+<circle cx="525.16" cy="1000.00" r="5" fill="#1e90ff"><title>message_idx=33152</title></circle>
+<rect x="436.49" y="990" width="95.04" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  the (selected)
+range=[26549, 33627) width=7078
+prob≈0.966940</title></rect>
+<rect x="531.53" y="990" width="2.99" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: the
+range=[33627, 33850) width=223
+prob≈0.030464</title></rect>
+<rect x="534.53" y="990" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]: 
+
+range=[33850, 33861) width=11
+prob≈0.001503</title></rect>
+<rect x="534.68" y="990" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: The
+range=[33861, 33865) width=4
+prob≈0.000546</title></rect>
+<rect x="534.73" y="990" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: a
+range=[33865, 33867) width=2
+prob≈0.000273</title></rect>
+<rect x="534.76" y="990" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]: .
+range=[33867, 33869) width=2
+prob≈0.000273</title></rect>
+<g><line x1="531.53" y1="994" x2="531.53" y2="1006" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 33627</title></g>
+<g><line x1="534.53" y1="994" x2="534.53" y2="1006" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 33850</title></g>
+<g><line x1="534.68" y1="994" x2="534.68" y2="1006" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 33861</title></g>
+<g><line x1="534.73" y1="994" x2="534.73" y2="1006" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 33865</title></g>
+<g><line x1="534.76" y1="994" x2="534.76" y2="1006" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 33867</title></g>
+<g><line x1="534.78" y1="994" x2="534.78" y2="1006" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 33869</title></g>
+<g><line x1="436.49" y1="1000" x2="531.53" y2="1000" stroke="#c00" stroke-width="5" /><title>selected token[0]:  the
+new_range=[26549, 33627) width=7078
+emitted_bits=[] (n=0)
+message_idx=33152</title></g>
+<text x="436.49" y="1018" font-family="monospace" font-size="12" fill="#c00">sel=0  the</text>
+<text x="80" y="1034" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="1080" x2="960" y2="1080" stroke="#333" stroke-width="1" />
+<text x="70" y="1075" font-family="monospace" font-size="12" text-anchor="end">step 14</text>
+<g><line x1="436.49" y1="1080" x2="531.53" y2="1080" stroke="#000" stroke-width="3" /><title>current interval [26549, 33627) width=7078 (~0.108002 of total)</title></g>
+<text x="436.49" y="1068" font-family="monospace" font-size="11" text-anchor="start" fill="#000">26549</text>
+<text x="531.53" y="1068" font-family="monospace" font-size="11" text-anchor="end" fill="#000">33627</text>
+<circle cx="525.16" cy="1080.00" r="5" fill="#1e90ff"><title>message_idx=33152</title></circle>
+<rect x="436.49" y="1070" width="89.00" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]:  park (selected)
+range=[26549, 33177) width=6628
+prob≈0.936423</title></rect>
+<rect x="525.49" y="1070" width="2.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]: park
+range=[33177, 33363) width=186
+prob≈0.026279</title></rect>
+<rect x="527.99" y="1070" width="2.32" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  local
+range=[33363, 33536) width=173
+prob≈0.024442</title></rect>
+<rect x="530.31" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]:  beach
+range=[33536, 33567) width=31
+prob≈0.004380</title></rect>
+<rect x="530.73" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: local
+range=[33567, 33592) width=25
+prob≈0.003532</title></rect>
+<rect x="531.06" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]:  nearby
+range=[33592, 33610) width=18
+prob≈0.002543</title></rect>
+<rect x="531.31" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: be
+range=[33610, 33614) width=4
+prob≈0.000565</title></rect>
+<rect x="531.36" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: 
+
+range=[33614, 33618) width=4
+prob≈0.000565</title></rect>
+<rect x="531.41" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: lake
+range=[33618, 33621) width=3
+prob≈0.000424</title></rect>
+<rect x="531.45" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: Park
+range=[33621, 33623) width=2
+prob≈0.000283</title></rect>
+<rect x="531.48" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]: .
+range=[33623, 33625) width=2
+prob≈0.000283</title></rect>
+<rect x="531.51" y="1070" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]: -
+range=[33625, 33627) width=2
+prob≈0.000283</title></rect>
+<g><line x1="525.49" y1="1074" x2="525.49" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 33177</title></g>
+<g><line x1="527.99" y1="1074" x2="527.99" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 33363</title></g>
+<g><line x1="530.31" y1="1074" x2="530.31" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 33536</title></g>
+<g><line x1="530.73" y1="1074" x2="530.73" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 33567</title></g>
+<g><line x1="531.06" y1="1074" x2="531.06" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 33592</title></g>
+<g><line x1="531.31" y1="1074" x2="531.31" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 33610</title></g>
+<g><line x1="531.36" y1="1074" x2="531.36" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 33614</title></g>
+<g><line x1="531.41" y1="1074" x2="531.41" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 33618</title></g>
+<g><line x1="531.45" y1="1074" x2="531.45" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 33621</title></g>
+<g><line x1="531.48" y1="1074" x2="531.48" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 33623</title></g>
+<g><line x1="531.51" y1="1074" x2="531.51" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 33625</title></g>
+<g><line x1="531.53" y1="1074" x2="531.53" y2="1086" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 33627</title></g>
+<g><line x1="436.49" y1="1080" x2="525.49" y2="1080" stroke="#c00" stroke-width="5" /><title>selected token[0]:  park
+new_range=[26549, 33177) width=6628
+emitted_bits=[] (n=0)
+message_idx=33152</title></g>
+<text x="436.49" y="1098" font-family="monospace" font-size="12" fill="#c00">sel=0  park</text>
+<text x="80" y="1114" font-family="monospace" font-size="12" fill="#333">bits=0 </text>
+<line x1="80" y1="1160" x2="960" y2="1160" stroke="#333" stroke-width="1" />
+<text x="70" y="1155" font-family="monospace" font-size="12" text-anchor="end">step 15</text>
+<g><line x1="436.49" y1="1160" x2="525.49" y2="1160" stroke="#000" stroke-width="3" /><title>current interval [26549, 33177) width=6628 (~0.101135 of total)</title></g>
+<text x="436.49" y="1148" font-family="monospace" font-size="11" text-anchor="start" fill="#000">26549</text>
+<text x="525.49" y="1148" font-family="monospace" font-size="11" text-anchor="end" fill="#000">33177</text>
+<circle cx="525.16" cy="1160.00" r="5" fill="#1e90ff"><title>message_idx=33152</title></circle>
+<rect x="436.49" y="1150" width="68.74" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[0]: .
+range=[26549, 31668) width=5119
+prob≈0.772330</title></rect>
+<rect x="505.23" y="1150" width="14.54" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[1]:  with
+range=[31668, 32751) width=1083
+prob≈0.163398</title></rect>
+<rect x="519.77" y="1150" width="3.29" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[2]:  or
+range=[32751, 32996) width=245
+prob≈0.036964</title></rect>
+<rect x="523.06" y="1150" width="0.91" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[3]: !
+range=[32996, 33064) width=68
+prob≈0.010260</title></rect>
+<rect x="523.97" y="1150" width="0.56" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[4]: with
+range=[33064, 33106) width=42
+prob≈0.006337</title></rect>
+<rect x="524.54" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[5]:  .
+range=[33106, 33124) width=18
+prob≈0.002716</title></rect>
+<rect x="524.78" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[6]: 
+
+
+range=[33124, 33135) width=11
+prob≈0.001660</title></rect>
+<rect x="524.93" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[7]: ,
+range=[33135, 33144) width=9
+prob≈0.001358</title></rect>
+<rect x="525.05" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[8]: or
+range=[33144, 33152) width=8
+prob≈0.001207</title></rect>
+<rect x="525.16" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[9]: I (selected)
+range=[33152, 33159) width=7
+prob≈0.001056</title></rect>
+<rect x="525.25" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[10]:  and
+range=[33159, 33164) width=5
+prob≈0.000754</title></rect>
+<rect x="525.32" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[11]: With
+range=[33164, 33169) width=5
+prob≈0.000754</title></rect>
+<rect x="525.38" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[12]: The
+range=[33169, 33174) width=5
+prob≈0.000754</title></rect>
+<rect x="525.45" y="1150" width="0.50" height="20" fill="#4a90e2" fill-opacity="0.08" stroke="none"><title>token[13]: We
+range=[33174, 33177) width=3
+prob≈0.000453</title></rect>
+<g><line x1="505.23" y1="1154" x2="505.23" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[0] at 31668</title></g>
+<g><line x1="519.77" y1="1154" x2="519.77" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[1] at 32751</title></g>
+<g><line x1="523.06" y1="1154" x2="523.06" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[2] at 32996</title></g>
+<g><line x1="523.97" y1="1154" x2="523.97" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[3] at 33064</title></g>
+<g><line x1="524.54" y1="1154" x2="524.54" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[4] at 33106</title></g>
+<g><line x1="524.78" y1="1154" x2="524.78" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[5] at 33124</title></g>
+<g><line x1="524.93" y1="1154" x2="524.93" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[6] at 33135</title></g>
+<g><line x1="525.05" y1="1154" x2="525.05" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[7] at 33144</title></g>
+<g><line x1="525.16" y1="1154" x2="525.16" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[8] at 33152</title></g>
+<g><line x1="525.25" y1="1154" x2="525.25" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[9] at 33159</title></g>
+<g><line x1="525.32" y1="1154" x2="525.32" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[10] at 33164</title></g>
+<g><line x1="525.38" y1="1154" x2="525.38" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[11] at 33169</title></g>
+<g><line x1="525.45" y1="1154" x2="525.45" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[12] at 33174</title></g>
+<g><line x1="525.49" y1="1154" x2="525.49" y2="1166" stroke="#888" stroke-width="1" /><title>boundary after token[13] at 33177</title></g>
+<g><line x1="525.16" y1="1160" x2="525.25" y2="1160" stroke="#c00" stroke-width="5" /><title>selected token[9]: I
+new_range=[33152, 33159) width=7
+emitted_bits=[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0] (n=13)
+message_idx=33152</title></g>
+<text x="525.16" y="1178" font-family="monospace" font-size="12" fill="#c00">sel=9 I</text>
+<text x="80" y="1194" font-family="monospace" font-size="12" fill="#333">bits=13 1000000110000</text>
+</svg>

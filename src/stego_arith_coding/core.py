@@ -493,7 +493,7 @@ class ArithmeticSteganography:
                     "cur_interval_before": cur_interval_before,
                     "cum_probs": cum_probs,
                     "tokens": tokens_temp,
-                    "message_idx": message_idx_scaled,
+                    "message_idx": message_idx,
                     "selection": selection,
                     "selected_token": selected_token,
                     "new_range": [new_int_bottom, new_int_top],

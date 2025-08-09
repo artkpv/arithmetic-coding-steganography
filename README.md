@@ -93,6 +93,12 @@ The library uses arithmetic coding steganography to hide messages:
 
 The key insight is that by carefully selecting which tokens to generate based on their probabilities, we can encode arbitrary binary data while maintaining natural-looking text.
 
+## Visualization 
+
+Example of the encoding process is below for: `stego-arith encode "The weather today is " "S"`
+
+![vis](./encoding-visualization.svg)
+
 ## API Reference
 
 ### ArithmeticSteganography
