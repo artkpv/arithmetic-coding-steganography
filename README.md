@@ -128,6 +128,15 @@ python -m pytest tests/
 python tests/test_core.py
 ```
 
+## FAQ / Issues
+
+See limitations in my blog post at https://www.artkpv.net/Tool-Arithmetic-Coding-for-LLM-Steganography/
+
+## References
+
+- Ziegler, Zachary, Yuntian Deng, and Alexander Rush. ‘Neural Linguistic Steganography’. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), edited by Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan. Association for Computational Linguistics, 2019. https://doi.org/10.18653/v1/D19-1115.
+- Pasco, ‘Source Coding Algorithms for Fast Data Compression’.
+
 ## License
 
 MIT License - see LICENSE file for details.
